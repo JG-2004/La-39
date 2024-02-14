@@ -14,25 +14,16 @@ header img {
 }
 
 header ul {
-    padding-top: 30px;
-    margin-top: 15px;
     overflow: hidden;
     list-style: none;
-    padding-left: 0;
-}
-
-header nav ul li {
-    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
 }
 
 header nav ul li a {
     color: white;
-    padding: 20px;
-    display: block;
     text-decoration: none;
-}
-
-header nav ul li a {
     transition: color 0.3 ease;
     text-decoration-line: none;
     color: white;
@@ -450,11 +441,13 @@ article img {
 /* inicio de estilos de nosotros desktop*/
 #nosotros img {
     width: 100%;
+    height: 580px;
 }
 
 #nosotros p {
     color: #BB852B;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 450;
 }
 
 .subtitulo-nosotros {
@@ -476,9 +469,6 @@ article img {
     font-size: 48px;
     color: #49C4CC;
     text-align: center;
-}
-
-#nosotros h3 {
     padding: 50px;
 }
 
